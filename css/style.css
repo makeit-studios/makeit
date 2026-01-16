@@ -1,0 +1,25 @@
+/* MakeIt Studios - Global Styles */
+
+body {
+  font-family: 'Montserrat', 'Molengo', sans-serif;
+  background: #0e0e0e;
+}
+
+/* Typography & Effects */
+.glow {
+  text-shadow: 0 0 18px rgba(160, 160, 160, 0.6);
+}
+
+/* Card Component */
+.card {
+  background: #161616;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .glow {
+    text-shadow: 0 0 12px rgba(160, 160, 160, 0.4);
+  }
+}
